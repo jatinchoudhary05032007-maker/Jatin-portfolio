@@ -142,3 +142,67 @@ hr{
 .pro{
     text-decoration:underline;
 }
+/* Mobile View */
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .top-container {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem; /* Adjust name size */
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .top-cloud,
+    .bottom-cloud {
+        width: 100px;
+    }
+
+    .top-cloud {
+        right: 20px;
+        top: 20px;
+    }
+
+    .bottom-cloud {
+        left: 20px;
+        bottom: 100px;
+    }
+
+    .mountain {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill-row {
+        width: 90%;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .skill-row img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        width: 120px;
+    }
+}
